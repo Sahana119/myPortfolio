@@ -2,39 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sahana Devadiga | Portfolio</title>
-  <link rel="stylesheet" href="Style.css" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='64'><circle cx='32' cy='32' r='30' fill='%23004080'/><text x='32' y='38' font-size='24' font-family='Arial' fill='white' text-anchor='middle' font-weight='bold'>SD</text></svg>">
-
 </head>
 <body>
-  <header>
-  <div class="header-container">
-    <div class="profile-info">
-      <img src="profile.jpeg" alt="Sahana Devadiga" class="profile-photo">
-      <div class="text-info">
-        <h1>Sahana Devadiga</h1>
-        <!-- <p><a href="mailto:sahanak581@gmail.com">sahanak581@gmail.com</a> | 📞 +91-9353250061</p>
-        <p><a href="https://www.linkedin.com/in/sahana-s-3a806b254" target="_blank">LinkedIn</a> | 📍 Udupi, Karnataka</p> -->
-      </div>
-    </div>
+
+<header class="main-header">
+  <div class="nav-container">
+    <div class="logo">Sahana</div>
     <button id="menuToggle">&#9776;</button>
+    <nav id="sidebar">
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#internship">Internships</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+      </ul>
+    </nav>
   </div>
-  <nav id="sidebar">
-    <ul>
-      <li><a href="#profile">Profile</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#internship">Internship</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-    </ul>
-  </nav>
+
+  <div class="hero-card">
+    <img src="profile.jpeg" alt="Sahana Devadiga" class="profile-photo" />
+    <div class="hero-info">
+      <h1>Sahana Devadiga</h1>
+      <p>📍 Udupi, Karnataka, India</p>
+      <p>📧 <a href="mailto:sahanak581@gmail.com">sahanak581@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/sahana-s-3a806b254" target="_blank">LinkedIn</a></p>
+    </div>
+  </div>
 </header>
 
 
-  <main id="content">
+  <main>
     <section id="profile">
       <h2>Profile</h2>
       <p>Computer Science graduate actively seeking a challenging role in a forward-thinking company. Equipped with a solid foundation in technical skills, gained through rigorous academic training and hands-on projects. Eager to apply my knowledge to contribute to technological advancements and drive innovation.</p>
@@ -43,9 +46,9 @@
     <section id="education">
       <h2>Education</h2>
       <ul>
-        <li><strong>B.E. Computer Science & Engineering</strong> – CGPA: 8.53<br/>MITE, 2020–2024</li>
-        <li><strong>12th</strong> – 91.66%<br/>SR PU College, Hebri, 2018–2020</li>
-        <li><strong>10th</strong> – 87.04%<br/>S.R Public School, Hebri, 2017–2018</li>
+        <li><strong>B.E. CSE</strong> – 8.53 CGPA, MITE (2020–2024)</li>
+        <li><strong>12th</strong> – 91.66%, SR PU College, Hebri</li>
+        <li><strong>10th</strong> – 87.04%, S.R Public School, Hebri</li>
       </ul>
     </section>
 
@@ -61,46 +64,44 @@
 
     <section id="internship">
       <h2>Internship Experience</h2>
-      <h3>KodNest Technologies – Full Stack Intern</h3>
-      <p>Aug 2024 – Mar 2025</p>
+      <h3>KodNest Technologies</h3>
+      <p>Full Stack Development Intern (Aug 2024 – Mar 2025)</p>
       <ul>
-        <li>Trained in Full Stack Java Development.</li>
-        <li>Experience with Competitive Programming, SQL, Web Dev.</li>
+        <li>Trained in Full Stack Java, Web Development, and SQL</li>
+        <li>Built real-world solutions and practiced competitive programming</li>
       </ul>
-      <h3>NxtAlign Innovations – ML Intern</h3>
-      <p>Aug 2023 – Nov 2023</p>
+
+      <h3>NxtAlign Innovations</h3>
+      <p>Machine Learning Intern (Aug 2023 – Nov 2023)</p>
       <ul>
-        <li>Built a secure web app with full-stack tools.</li>
-        <li>Worked on deployment, HTML, CSS, JS, PHP, Python, MySQL.</li>
+        <li>Developed a secure full-stack web app with ML features</li>
+        <li>Used HTML, CSS, JS, PHP, MySQL, and Python</li>
       </ul>
     </section>
 
     <section id="projects">
       <h2>Project</h2>
       <h3>Epileptic Seizure Recognition</h3>
-      <p>Dec 2023 – May 2024</p>
       <ul>
-        <li>Real-time EEG classification web app.</li>
-        <li>Used HTML, CSS, JS, Bootstrap, PHP, Python, SQL.</li>
-        <li>Handled backend, model integration, and deployment.</li>
+        <li>Web-based real-time EEG classifier</li>
+        <li>Used Python, SQL, PHP, JS, HTML, Bootstrap</li>
+        <li>Handled backend data flow, ML model integration</li>
       </ul>
     </section>
 
     <section id="certifications">
       <h2>Courses & Certifications</h2>
       <ul>
-        <li>Web Development – Internshala</li>
-        <li>Python – Coursera</li>
-        <li>ML: Regression & Classification – Coursera</li>
-        <li>Full Stack Dev – Udemy</li>
+        <li>Web Development Training – Internshala</li>
+        <li>Crash Course on Python – Coursera</li>
+        <li>Supervised ML – Coursera</li>
+        <li>Full Stack Web Dev – Udemy</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>📧 <a href="mailto:sahanak581@gmail.com">sahanak581@gmail.com</a> | 📍 Udupi, India | 📞 +91-9353250061</p>
-    <p><a href="https://www.linkedin.com/in/sahana-s-3a806b254" target="_blank">LinkedIn Profile</a></p>
-    <p>© 2025 Sahana Devadiga</p>
+    <p>© 2025 Sahana Devadiga. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
